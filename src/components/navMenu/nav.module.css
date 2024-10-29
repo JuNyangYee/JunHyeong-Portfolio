@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    grid-area: right;
+    justify-self: right;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.memuList {
+    display: flex;
+    width: 385px;
+    justify-content: space-between;
+    
+    font-size: 0.938rem;
+    color: var(--font-gray);
+    font-weight: var(--font-regular);
+}

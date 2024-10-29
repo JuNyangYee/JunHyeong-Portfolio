@@ -1,9 +1,11 @@
 import localFont from "next/font/local";
-import Image from "next/image";
 import "./globals.css";
 import styles from "./layout.module.css";
-import Nav from "../components/navMenu";
-import Link from "next/link";
+
+// Components
+import Nav from "@/components/navMenu/navMenu";
+import FAB from "@/components/floatingButton/floatingButton";
+import Logo from "@/components/logo/logo"
 
 const pretendard = localFont({
     src: "./fonts/PretendardVariable.woff2",
@@ -22,34 +24,20 @@ export default function RootLayout({ children }) {
     return (
         <html lang="kr">
             <body className={pretendard.className}>
-                <header className={styles.container}>
-                    <div className={styles.logo}>
-                        <Link href="./">
-                            <Image src={"/images/logo.png"} width={200} height={36} alt="JunHyeong"/>
-                        </Link>
-                    </div>
-                    <Nav></Nav>
-                    <div className={styles.contact}>
-                            <ul className={styles.contactList}>
-                                <li>
-                                    <a href="https://www.instagram.com/ju_nyang_yee/" target="_blank">
-                                        <Image src={"/icons/Instagram.svg"} width={26} height={26} alt="Instagram" title="Instagram"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" target="_blank">
-                                        <Image src={"/icons/LinkedIn.svg"} width={26} height={26} alt="LinkedIn" title="LinkedIn"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="mailto:answnsgud19@gmail.com">
-                                        <Image src={"/icons/Mail.svg"} width={26} height={26} alt="Mail" title="Mail"/>
-                                    </a>
-                                </li>
-                            </ul>
+
+                <header className={styles.header}>
+                    <div className={styles.gnb}>
+                        <Logo></Logo>
+                        <Nav></Nav>
                     </div>
                 </header>
+
+                <section className={styles.fab}>
+                    <FAB></FAB>
+                </section>
+                
                 {children}
+
             </body>
         </html>
     );
