@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FloatingMenu() {
     return (
         <div className={styles.logo}>
-            <Link href="./">
+            <Link href="./" scroll={false}>
                 <Image src={"/images/Logo.png"} width={200} height={36} alt="JunHyeong"/>
             </Link>
         </div>
