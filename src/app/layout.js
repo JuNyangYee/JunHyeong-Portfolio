@@ -8,7 +8,7 @@ import FAB from "@/components/floatingButton/floatingButton";
 import Logo from "@/components/logo/logo"
 
 const pretendard = localFont({
-    src: "/fonts/PretendardVariable.woff2",
+    src: "./fonts/PretendardVariable.woff2",
     variable: "--font-pretendard",
     display: "swap",
     weight: "45 920",
