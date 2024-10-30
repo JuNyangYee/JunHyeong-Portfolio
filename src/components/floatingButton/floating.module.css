@@ -12,9 +12,19 @@
     justify-content: space-between;
 }
 
+.floatingItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     
     background: linear-gradient(to bottom, #F3F5FA, #ffffff);
     box-shadow: 3px 4px 10px #0000001a;
@@ -22,4 +32,32 @@
     border: 0;
 
     cursor: pointer;
+}
+
+.floatingItem:hover .tooltip{
+    visibility: visible;
+}
+
+.tooltip {
+    display: flex;
+    position: fixed;
+    overflow: hidden;
+
+    right: 92px;
+
+    padding: 0.438rem 1.875rem;
+
+    font-size: 0.75rem;
+    letter-spacing: -0.023rem;
+    font-weight: var(--font-semibold);
+    color: #ffffff;
+    text-align: center;
+
+    justify-content: center;
+
+    background-color: #505050;
+    border-radius: 10px;
+    border: 0;
+
+    visibility: hidden;
 }

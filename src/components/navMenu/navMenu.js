@@ -9,13 +9,13 @@ export default function NavMenu() {
         <nav className={styles.menu}>
             <ul className={styles.memuList}>
                 <li>
-                    <Link href="./">PROFILE</Link>
+                    <Link href="#profile" className={styles.menuButton}>PROFILE</Link>
                 </li>
                 <li>
-                    <Link href="./">WORKS</Link>
+                    <Link href="./" className={styles.menuButton}>WORKS</Link>
                 </li>
                 <li>
-                    <Link href="./">CONTACT</Link>
+                    <Link href="./" className={styles.menuButton}>CONTACT</Link>
                 </li>
             </ul>
         </nav>

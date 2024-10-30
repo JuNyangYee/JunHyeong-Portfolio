@@ -10,9 +10,23 @@
 .memuList {
     display: flex;
     width: 385px;
-    justify-content: space-between;
+    height: 100%;
+    justify-content: space-between; 
     
-    font-size: 0.938rem;
+    font-size: 1.125rem;
+    letter-spacing: -0.023rem;
     color: var(--font-gray);
-    font-weight: var(--font-regular);
+    font-weight: var(--font-light);
+}
+
+.menuButton {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.menuButton:hover {
+    transition: 0.25s;
+
+    color: #9DA5F4;
 }

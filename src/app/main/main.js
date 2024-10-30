@@ -12,10 +12,10 @@ export default function Main() {
                 
                 <div className={styles.imgArea}>
                     <div className={styles.image}>
-                        <Image src={"/images/Profile_Avatar.png"} fill objectFit="contain"></Image>
+                        <Image src={"/images/Profile_Avatar.png"} fill objectFit="contain" alt="MainImage"></Image>
                     </div>
                     <div className={styles.scrollDown}>
-                        <Image src={"/images/ScrollDown.png"} fill></Image>
+                        <Image src={"/images/ScrollDown.png"} fill alt="ScrollImage"></Image>
                     </div>
                 </div>
             </section>
