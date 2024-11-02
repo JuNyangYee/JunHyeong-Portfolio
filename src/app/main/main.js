@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Main() {
     return (
-        <main className={styles.main}>
+        <main id="main" className={styles.main}>
             <section className={styles.mainPage}>
                 <div className={styles.title}>
                     <h1 className={styles.titleText}>꿈꾸는 모든 것을 만들다</h1>

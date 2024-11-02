@@ -1,23 +1,24 @@
 'use client';
-import { usePathname } from "next/navigation";
-import Link from "next/link";
 import styles from "./nav.module.css";
 
 export default function NavMenu() {
-    const pathname = usePathname();
+
+    const scrollToId = function (id) {
+        const element = document.getElementById(id);
+        element?.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
+    };
+
     return (
         <nav className={styles.menu}>
-            <ul className={styles.memuList}>
-                <li>
-                    <Link href="#profile" className={styles.menuButton}>PROFILE</Link>
-                </li>
-                <li>
-                    <Link href="./" className={styles.menuButton}>WORKS</Link>
-                </li>
-                <li>
-                    <Link href="./" className={styles.menuButton}>CONTACT</Link>
-                </li>
-            </ul>
+            <div className={styles.memuList}>
+
+                <div className={styles.menuButton} onClick={() => scrollToId("profile")}>PROFILE</div>
+
+                <div className={styles.menuButton} onClick={() => scrollToId("works")}>WORKS</div>
+
+                <div className={styles.menuButton} onClick={() => scrollToId("contact")}>CONTACT</div>
+
+            </div>
         </nav>
     );
 }

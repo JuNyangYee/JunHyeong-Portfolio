@@ -1,0 +1,9 @@
+.contact {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    background: #F8F8FF;
+    white-space: pre-wrap;
+    scroll-margin: 80px;
+}

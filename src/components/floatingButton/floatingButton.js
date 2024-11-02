@@ -1,8 +1,14 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./floating.module.css";
 
 export default function FloatingButton() {
+
+    const scrollToTop = function() {
+        window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+    };
+
     return (
         <section className={styles.floatingButton}>
             <div className={styles.floatingList}>
@@ -44,11 +50,11 @@ export default function FloatingButton() {
                     <div className={styles.tooltip}>
                         <span>TOP</span>
                     </div>
-                    <Link href="#root">
-                        <button className={styles.button}>
+                    <div>
+                        <button className={styles.button} onClick={() => scrollToTop()}>
                             <Image src={"/icons/up.svg"} width={36} height={36} alt="Top" title="Top"/>
                         </button>
-                    </Link>
+                    </div>
                 </div>
 
             </div>

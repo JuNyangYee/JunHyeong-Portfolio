@@ -1,5 +1,7 @@
-import Main from "./main/main"
-import Profile from "./profile/profile"
+import Main from "./main/main";
+import Profile from "./profile/profile";
+import Works from "./works/works";
+import Contact from "./contact/contact";
 
 export default function Portfolio() {
     return (
@@ -7,6 +9,8 @@ export default function Portfolio() {
             
             <Main/>
             <Profile/>
+            <Works/>
+            <Contact/>
 
         </div>
     );
