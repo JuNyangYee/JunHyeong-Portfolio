@@ -14,6 +14,13 @@ const pretendard = localFont({
     weight: "45 920",
 });
 
+const montserrat = localFont({
+    src: "./fonts/Montserrat.woff2",
+    variable: "--font-montserrat",
+    display: "swap",
+    subsets: ["latin"],
+});
+
 export const metadata = {
     title: "JunHyeong Portfolio | 문준형 포트폴리오",
     description: "[JunHyeong] 테크니컬 아티스트 문준형 포트폴리오입니다.",
@@ -33,7 +40,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="kr">
-            <body className={pretendard.className}>
+            <body className={`${pretendard.className} ${montserrat.variable}`}>
 
                 <header className={styles.header}>
                     <div className={styles.gnb}>
