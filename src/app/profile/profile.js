@@ -13,7 +13,7 @@ export default function Profile() {
                     </div>
                     <div className={styles.aboutMe}>
                         <div className={styles.profileImage}>
-                            <Image src={"/images/Profile.png"} width={307} height={307} className={styles.image}></Image>
+                            <Image src={"/images/Profile.png"} width={307} height={307} className={styles.image} alt="Profile Image"></Image>
                         </div>
                         <div className={styles.info}>
                             <div className={styles.name}>
@@ -30,7 +30,7 @@ export default function Profile() {
                             <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
                             className={styles.more} target="_blank">
                                 <span className={styles.moreText}>자기소개 더보기</span>
-                                <Image src={"/icons/clickButton.svg"} width={19} height={19}></Image>
+                                <Image src={"/icons/clickButton.svg"} width={19} height={19} alt="More"></Image>
                             </Link>
                         </div>
                     </div>

@@ -5,7 +5,7 @@ import styles from "./floating.module.css";
 
 export default function FloatingButton() {
 
-    const scrollToTop = function() {
+    const ScrollToTop = function() {
         window.scrollTo({top: 0, left: 0, behavior: "smooth"});
     };
 
@@ -26,11 +26,11 @@ export default function FloatingButton() {
 
                 <div className={styles.floatingItem}>
                     <div className={styles.tooltip}>
-                        <span>INSTAGRAM</span>
+                        <span>GITHUB</span>
                     </div>
-                    <Link href="https://www.instagram.com/ju_nyang_yee/" target="_blank">
+                    <Link href="https://github.com/JuNyangYee" target="_blank">
                         <button className={styles.button}>
-                            <Image src={"/icons/Instagram.svg"} width={26} height={26} alt="Instagram" title="Instagram"/>
+                            <Image src={"/icons/github.svg"} width={28} height={28} alt="Github" title="Github"/>
                         </button>
                     </Link>
                 </div>
@@ -48,10 +48,21 @@ export default function FloatingButton() {
 
                 <div className={styles.floatingItem}>
                     <div className={styles.tooltip}>
+                        <span>INSTAGRAM</span>
+                    </div>
+                    <Link href="https://www.instagram.com/ju_nyang_yee/" target="_blank">
+                        <button className={styles.button}>
+                            <Image src={"/icons/Instagram.svg"} width={26} height={26} alt="Instagram" title="Instagram"/>
+                        </button>
+                    </Link>
+                </div>
+
+                <div className={styles.floatingItem}>
+                    <div className={styles.tooltip}>
                         <span>TOP</span>
                     </div>
                     <div>
-                        <button className={styles.button} onClick={() => scrollToTop()}>
+                        <button className={styles.button} onClick={() => ScrollToTop()}>
                             <Image src={"/icons/up.svg"} width={36} height={36} alt="Top" title="Top"/>
                         </button>
                     </div>

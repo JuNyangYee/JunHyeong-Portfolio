@@ -22,6 +22,21 @@
     position: relative;
 }
 
+.bgTitle {
+    width: 100%;
+    position: absolute;
+    top: 38vh;
+}
+
+.bgTitleText {
+    text-align: center;
+    color: #0000000a;
+    font-family: var(--font-montserrat);
+    font-weight: 900;
+    font-size: 8rem;
+    letter-spacing: 0.31em;
+}
+
 .title {
     width: 100%;
     display: flex;
