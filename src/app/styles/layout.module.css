@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    background-color: #ffffff4d;
+    background-color: #ffffff80;
     backdrop-filter: blur(10px);
     border-bottom: 1px solid #0000001a;
 
@@ -12,7 +12,7 @@
     max-width: 1200px;
     height: 80px;
     margin: 0 auto;
-    padding: 0 40px;
+    /* padding: 0 40px; */
 
     display: grid;
     grid-template-columns: 1fr auto 1fr;

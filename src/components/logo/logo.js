@@ -13,7 +13,7 @@ export default function Logo() {
 
     return (
         <div className={styles.logo}>
-            <Link href="./" scroll={false}>
+            <Link href="https://junyangyee.vercel.app/" scroll={false}>
                 <Image src={"/images/Logo.png"} width={200} height={36} alt="JunHyeong"/>
             </Link>
         </div>

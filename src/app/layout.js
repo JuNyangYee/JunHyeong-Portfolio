@@ -37,7 +37,7 @@ export const metadata = {
     },
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, modal }) {
     return (
         <html lang="kr">
             <body className={`${pretendard.className} ${montserrat.variable}`}>
@@ -50,6 +50,7 @@ export default function RootLayout({ children }) {
                 </header>
                 
                 {children}
+                {modal}
 
                 <section className={styles.fab}>
                     <FAB></FAB>

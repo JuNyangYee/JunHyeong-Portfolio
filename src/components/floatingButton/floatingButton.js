@@ -5,8 +5,9 @@ import styles from "./floating.module.css";
 
 export default function FloatingButton() {
 
-    const ScrollToTop = function() {
-        window.scrollTo({top: 0, left: 0, behavior: "smooth"});
+    const ScrollToID = function (id) {
+        const element = document.getElementById(id);
+        element?.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
     };
 
     return (
@@ -62,7 +63,7 @@ export default function FloatingButton() {
                         <span>TOP</span>
                     </div>
                     <div>
-                        <button className={styles.button} onClick={() => ScrollToTop()}>
+                        <button className={styles.button} onClick={() => ScrollToID("root")}>
                             <Image src={"/icons/up.svg"} width={36} height={36} alt="Top" title="Top"/>
                         </button>
                     </div>

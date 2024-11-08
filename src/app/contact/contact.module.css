@@ -1,9 +1,72 @@
 .contact {
     width: 100%;
-    height: 400px;
+    height: calc(100vh - 80px);
     position: relative;
 
-    background: #F8F8FF;
+    background: #FFFFFF;
     white-space: pre-wrap;
     scroll-margin: 80px;
+}
+
+.innerPadding {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 25rem;
+}
+
+.title {
+    color: #505050;
+    font-family: var(--font-montserrat);
+    font-weight: var(--font-light);
+    font-size: 1.6125rem;
+    letter-spacing: 1.625em;
+    text-indent: 1.625em;
+}
+
+.infoArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding-top: 3.25rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+}
+
+.info > span {
+    color: #505050;
+    font-family: var(--font-montserrat);
+    font-weight: var(--font-light);
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+}
+
+.copyright {
+    display: flex;
+    position: absolute;
+    bottom: 1.75rem;
+    margin: 0 auto;
+    text-align: center;
+
+    color: #505050;
+    font-family: var(--font-montserrat);
+    font-weight: var(--font-light);
+    font-size: 0.825rem;
 }

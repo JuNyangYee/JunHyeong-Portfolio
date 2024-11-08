@@ -7,13 +7,17 @@
     --font-medium: 500;
     --font-regular: 400;
     --font-light: 300;
-    --font-extralihgt: 200;
+    --font-extralight: 200;
     --font-thin: 100;
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 html {
