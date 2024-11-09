@@ -1,0 +1,48 @@
+.fab {
+    position: sticky;
+    width: 50px;
+    top: 110px;
+    margin-left: 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.fabItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.fabButton {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background: linear-gradient(to bottom, #F3F5FA, #ffffff);
+    border-radius: 99999px;
+    border: 0;
+
+    cursor: pointer;
+}
+
+.fabText {
+    color: #FFFFFF;
+    font-weight: var(--font-medium);
+    font-size: 0.875rem;
+    letter-spacing: -0.05em;
+    text-indent: -0.05em;
+}
+
+.hide {
+    display: none;
+}
