@@ -1,11 +1,10 @@
 .contact {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100dvh;
     position: relative;
 
     background: #FFFFFF;
     white-space: pre-wrap;
-    scroll-margin: 80px;
 }
 
 .innerPadding {
@@ -69,13 +68,6 @@
     font-family: var(--font-montserrat);
     font-weight: var(--font-light);
     font-size: 0.825rem;
-}
-
-@media screen and (max-width:767px) { 
-    .contact {
-        height: calc(100vh - 60px);
-        scroll-margin: 60px;
-    }
 }
 
 @media screen and (max-width:479px) { 
