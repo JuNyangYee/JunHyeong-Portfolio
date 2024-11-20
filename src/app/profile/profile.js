@@ -13,7 +13,12 @@ export default function Profile() {
                     </div>
                     <div className={styles.aboutMe}>
                         <div className={styles.profileImage}>
-                            <Image src={"/images/Profile.png"} width={307} height={307} className={styles.image} alt="Profile Image"></Image>
+                            <Image 
+                                src={"/images/Profile.png"} 
+                                width={307} height={307} 
+                                className={styles.image} 
+                                alt="Profile Image" 
+                            />
                         </div>
                         <div className={styles.info}>
                             <div className={styles.name}>

@@ -7,14 +7,18 @@ import Link from "next/link";
 export default function Logo() {
 
     useEffect(() => {
-            alert("현재 작업 중인 페이지입니다. \n모바일 환경에서는 정확하게 보이지 않을 수 있습니다.");
+            alert("현재 작업 중인 페이지입니다. \n 포트폴리오 내용은 추후 업데이트됩니다.");
         }
     )
 
     return (
         <div className={styles.logo}>
             <Link href="https://junyangyee.vercel.app/" scroll={false}>
-                <Image src={"/images/Logo.png"} width={200} height={36} alt="JunHyeong"/>
+                <Image 
+                    src={"/images/Logo.png"} 
+                    fill
+                    alt="JunHyeong_Logo"
+                />
             </Link>
         </div>
     );

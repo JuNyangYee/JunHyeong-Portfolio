@@ -107,3 +107,63 @@
 #tagDisable.workItem {
     display: none;
 }
+
+@media screen and (min-width:768px) and (max-width:1279px) { 
+    .workItem {
+        height: 360px;
+    }
+
+    .workThumbnail {
+        height: 46%;
+    }
+
+    .workHover > .workMore {
+        padding: 1rem 4rem;
+    }
+
+    .workText > .workTitle {
+        font-size: 1.25rem;
+    }
+
+    .workTags > .workTagButton {
+        padding: 0.3rem 0.45rem;
+        font-weight: var(--font-regular);
+        font-size: 0.675rem;
+    }
+} 
+
+@media screen and (max-width:767px) { 
+    .workItem {
+        height: 300px;
+    }
+
+    .workThumbnail {
+        height: 45%;
+    }
+
+    .workHover > .workMore {
+        padding: 0.725rem 4rem;
+    }
+
+    .workText {
+        padding: 0 25px;
+    }
+
+    .workText > .workTitle {
+        font-size: 1.25rem;
+    }
+
+    .workTags {
+        padding: 35px 25px;
+    }
+
+    .workTags > .workTagButton {
+        padding: 0.3rem 0.45rem;
+        font-weight: var(--font-regular);
+        font-size: 0.675rem;
+    }
+} 
+
+@media screen and (max-width:767px) { 
+    
+}

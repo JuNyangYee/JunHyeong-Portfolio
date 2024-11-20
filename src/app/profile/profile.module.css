@@ -12,6 +12,7 @@
 
 .innerPadding {
     max-width: 1200px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 
@@ -176,4 +177,72 @@
     columns: #787878;
     font-weight: var(--font-light);
     font-size: 0.75rem;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1279px) { 
+    .innerPadding {
+        max-width: 960px
+    }
+
+    .actBox {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        row-gap: 100px;
+        column-gap: 80px;
+    }
+} 
+
+@media screen and (max-width:767px) { 
+    .profile {
+        scroll-margin: 60px;
+    }
+
+    .innerPadding {
+        max-width: 560px
+    }
+
+    .intro {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .bgTitle {
+        padding-bottom: 65px;
+    }
+
+    .aboutMe {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .info {
+        padding: 0 12px;
+    }
+
+    .activity {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .actBox {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 12px;
+        row-gap: 72px;
+    }
+} 
+
+@media screen and (max-width:479px) { 
+    .krName {
+        font-size: 1.8rem;
+        font-weight: var(--font-bold);
+    }
+    
+    .enName {
+        margin-left: 15px;
+        font-size: 1.125rem;
+        font-weight: var(--font-regular);
+        font-family: var(--font-montserrat);
+    }
 }

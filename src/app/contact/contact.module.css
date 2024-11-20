@@ -70,3 +70,37 @@
     font-weight: var(--font-light);
     font-size: 0.825rem;
 }
+
+@media screen and (max-width:767px) { 
+    .contact {
+        height: calc(100vh - 60px);
+        scroll-margin: 60px;
+    }
+}
+
+@media screen and (max-width:479px) { 
+    .title {
+        font-size: 1.25rem;
+    }
+    
+    .info > span {
+        color: #505050;
+        font-family: var(--font-montserrat);
+        font-weight: var(--font-light);
+        font-size: 0.75rem;
+        letter-spacing: 0.03em;
+    }
+    
+    .copyright {
+        display: flex;
+        position: absolute;
+        bottom: 1.75rem;
+        margin: 0 auto;
+        text-align: center;
+    
+        color: #505050;
+        font-family: var(--font-montserrat);
+        font-weight: var(--font-light);
+        font-size: 0.625rem;
+    }
+}

@@ -10,6 +10,8 @@
 .innerPadding {
     max-width: 1200px;
     margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-bottom: 115px;
     border-bottom: 1px #0000001a solid;
 }
@@ -85,3 +87,125 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
+
+@media screen and (min-width:768px) and (max-width:1279px) { 
+    .innerPadding {
+        max-width: 960px;
+    }
+
+    .tagSelect {
+        width: 420px;
+    }
+
+    .button {
+        padding: 10px 24px;
+    }
+
+    .active {
+        font-size: 1rem;
+    }
+
+    .none {
+        font-size: 0.875rem;
+    }
+
+    .none[name="art"],
+    .active[name="art"] {
+        padding: 10px 26px;
+    }
+
+    .none[name="doc"],
+    .active[name="doc"] {
+        padding: 10px 12px;
+    }
+} 
+
+@media screen and (max-width:767px) { 
+    .works {
+        scroll-margin: 60px;
+    }
+
+    .innerPadding {
+        max-width: 680px;
+    }
+
+    .title {
+        padding-top: 100px;
+    }
+
+    .tagSelect {
+        width: 380px;
+        height: 58px;
+        margin-top: 48px;
+    }
+
+    .button {
+        padding: 10px 24px;
+    }
+
+    .active {
+        font-size: 1rem;
+    }
+
+    .none {
+        font-size: 0.875rem;
+    }
+
+    .none[name="art"],
+    .active[name="art"] {
+        padding: 10px 26px;
+    }
+
+    .none[name="doc"],
+    .active[name="doc"] {
+        padding: 10px 12px;
+    }
+
+    .workList {
+        display: grid;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+} 
+
+@media screen and (max-width:479px) { 
+    .tagSelect {
+        width: 280px;
+        height: 52px;
+        margin-top: 42px;
+    }
+
+    .button {
+        padding: 10px 16px;
+    }
+
+    .active {
+        font-size: 0.875rem;
+    }
+
+    .none {
+        font-size: 0.775rem;
+    }
+
+    .none[name="art"],
+    .active[name="art"] {
+        padding: 10px 18px;
+    }
+
+    .none[name="doc"],
+    .active[name="doc"] {
+        padding: 10px 12px;
+    }
+
+    .workList {
+        display: grid;
+        padding-top: 40px;
+        padding-left: 5px;
+        padding-right: 5px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 25px;
+    }
+} 

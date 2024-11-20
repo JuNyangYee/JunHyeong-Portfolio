@@ -1,8 +1,32 @@
 .logo {
+    width: 200px;
+    height: 36px;
     display: flex;
     grid-area: left;
     justify-self: start;
+    align-self: center;
     align-items: center;
 
     position: relative;
 }
+
+@media screen and (min-width:768px) and (max-width:1279px) { 
+    .logo {
+        width: 175px;
+        height: 31.5px;
+    }
+} 
+
+@media screen and (min-width:480px) and (max-width:767px) { 
+    .logo {
+        width: 125px;
+        height: 22.5px;
+    }
+} 
+
+@media screen and (max-width:479px) { 
+    .logo {
+        width: 100px;
+        height: 18px;
+    }
+} 

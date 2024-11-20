@@ -49,3 +49,13 @@ const Page = {
 }
 
 export default Page;
+
+// export default function Test() {
+//     return (
+//         <Modal
+//             info={Page.info}
+//             contents={Page.contents}
+//             imgData={Page.imgData}
+//         />
+//     );
+// };

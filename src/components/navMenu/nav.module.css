@@ -32,3 +32,24 @@
 
     color: #9DA5F4;
 }
+
+@media screen and (min-width:768px) and (max-width:1279px) { 
+    .memuList {
+        width: 340px;
+        font-size: 1rem;
+    }
+} 
+
+@media screen and (min-width:480px) and (max-width:767px) { 
+    .memuList {
+        width: 240px;
+        font-size: 0.825rem;
+    }
+} 
+
+@media screen and (max-width:479px) { 
+    .memuList {
+        width: 180px;
+        font-size: 0.725rem;
+    }
+} 

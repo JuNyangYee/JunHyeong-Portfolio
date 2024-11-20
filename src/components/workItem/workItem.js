@@ -48,7 +48,7 @@ export default function WorkItem(props) {
         <div id={tagCheck(now, info.mainTag) ? styles.tagEnable : styles.tagDisable} className={styles.workItem}>
             <div className={styles.workThumbnail}>
                 <div className={styles.workHover}>
-                    <Link href={info.url} className={styles.workMore} scroll={false} onClick={scrollCont}>자세히보기</Link>
+                    <Link href={`/portfolio/${info.url}`} className={styles.workMore} scroll={false} onClick={scrollCont}>자세히보기</Link>
                 </div>
                 <Image 
                     src={info.thumbnail} 

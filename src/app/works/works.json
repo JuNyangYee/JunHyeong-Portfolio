@@ -8,7 +8,7 @@
 			"title": "도큐먼트 제목 01",
 			"sub": "반갑습니다. 테스트입니다.",
 			"tags": ["Tech", "Art", "Unreal Engine"],
-			"url": "/portfolio/testPage"
+			"url": "file_one"
 		},
 
 		{
@@ -19,7 +19,7 @@
 			"title": "도큐먼트 제목 01",
 			"sub": "반갑습니다. 테스트입니다.",
 			"tags": ["Art", "Maya"],
-			"url": "/portfolio/testPage"
+			"url": "file_one"
 		},
 
 		{
@@ -30,7 +30,7 @@
 			"title": "도큐먼트 제목 01",
 			"sub": "반갑습니다. 테스트입니다.",
 			"tags": ["Art", "Document", "Unreal Engine"],
-			"url": "/portfolio/testPage"
+			"url": "file_one"
 		}
 	]
 }
