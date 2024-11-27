@@ -1,7 +1,7 @@
 import Modal from "@/components/modal/modal";
 import Data from "@/app/api/posts/portfolio"
 
-export default function Portfolio({params}) {
+export default async function Portfolio({params}) {
     return (
         <Modal
             info={Data.info}
