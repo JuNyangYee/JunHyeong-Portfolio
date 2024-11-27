@@ -22,7 +22,7 @@ export default function WorkFAB(props) {
                     <p className={styles.fabText}>닫기</p>
                 </div>
                 <div className={props.blog ? styles.fabItem : styles.hide}>
-                    <Link href={""} className={styles.fabButton}>
+                    <Link href={props.blog_url} className={styles.fabButton} target="_blank">
                         <Image 
                             src={"/icons/page.svg"} 
                             width={24} height={24} 
@@ -33,7 +33,7 @@ export default function WorkFAB(props) {
                     <p className={styles.fabText}>블로그</p>
                 </div>
                 <div className={props.video ? styles.fabItem : styles.hide}>
-                    <Link href={""} className={styles.fabButton}>
+                    <Link href={props.video_url} className={styles.fabButton} target="_blank">
                         <Image 
                             src={"/icons/video.svg"} 
                             width={28} height={32} 
@@ -44,7 +44,7 @@ export default function WorkFAB(props) {
                     <p className={styles.fabText}>영상</p>
                 </div>
                 <div className={props.link ? styles.fabItem : styles.hide}>
-                    <Link href={""} className={styles.fabButton}>
+                    <Link href={props.link_url} className={styles.fabButton} target="_blank">
                         <Image 
                             src={"/icons/link.svg"} 
                             width={24} height={24} 

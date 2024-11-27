@@ -2,35 +2,13 @@
     "works": [
 		{
 			"index": 1,
-			"mainTag": ["tech", "art"],
-			"thumbnail": "/images/works/test/TestThumbnail.jpg",
-			"alt": "alt_test",
-			"title": "도큐먼트 제목 01",
-			"sub": "반갑습니다. 테스트입니다.",
-			"tags": ["Tech", "Art", "Unreal Engine"],
-			"url": "file_one"
-		},
-
-		{
-			"index": 2,
-			"mainTag": ["art"],
-			"thumbnail": "/images/works/test/TestThumbnail.jpg",
-			"alt": "alt_test",
-			"title": "도큐먼트 제목 01",
-			"sub": "반갑습니다. 테스트입니다.",
-			"tags": ["Art", "Maya"],
-			"url": "file_one"
-		},
-
-		{
-			"index": 3,
-			"mainTag": ["art", "doc"],
-			"thumbnail": "/images/works/test/TestThumbnail.jpg",
-			"alt": "alt_test",
-			"title": "도큐먼트 제목 01",
-			"sub": "반갑습니다. 테스트입니다.",
-			"tags": ["Art", "Document", "Unreal Engine"],
-			"url": "file_one"
+			"mainTag": ["tech"],
+			"thumbnail": "/images/works/portfolio/Portfolio_Thumbnail.png",
+			"alt": "JunHyeong-Portfolio_Thumbnail",
+			"title": "Portfolio Page Dev",
+			"sub": "개인 포트폴리오 사이트 제작",
+			"tags": ["Tech", "Web", "Next.js"],
+			"url": "portfolio"
 		}
 	]
 }

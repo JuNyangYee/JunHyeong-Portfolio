@@ -6,8 +6,11 @@ const Page = {
         thumbnail: "/images/works/test/TestTitleImg.jpg",
         tags: ["Tech", "Art", "Unreal Engine"],
         fab_blog: true,
+        fab_blog_url : "",
         fab_video: true,
-        fab_link: true
+        fab_video_url: "",
+        fab_link: true,
+        fab_link_url: ""
     },
 
     imgData: [
