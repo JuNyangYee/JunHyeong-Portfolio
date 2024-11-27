@@ -51,6 +51,7 @@ export default function WorkItem(props) {
                     <Link href={`/portfolio/${info.url}`} className={styles.workMore} scroll={false} onClick={scrollCont}>자세히보기</Link>
                 </div>
                 <Image 
+                    loader={()=>info.thumbnail}
                     src={info.thumbnail} 
                     fill
                     alt={info.alt}
