@@ -6,7 +6,7 @@ const Page = {
         thumbnail: "/images/works/Portfolio/Portfolio_Thumbnail.png",
         tags: ["Tech", "Web", "Next.js"],
         fab_blog: true,
-        fab_blog_url: "https://junyangyee.github.io/posts/Portfolio",
+        fab_blog_url: "https://junyangyee.github.io/posts/PORTFOLIO",
         fab_video: false,
         fab_video_url: "",
         fab_link: true,
@@ -72,7 +72,7 @@ const Page = {
             <hr />
 
             <h3>작업 과정</h3>
-            <p><a href="https://junyangyee.github.io/posts/Portfolio" style={{backgroundColor: "#0000001a", paddingLeft: 12 + 'px', paddingRight: 12 + 'px', borderBottom: 'none'}}>개발 일지</a> 를 통해 자세한 작업 과정을 확인하실 수 있습니다.</p>
+            <p><a href="https://junyangyee.github.io/posts/PORTFOLIO" style={{backgroundColor: "#0000001a", paddingLeft: 12 + 'px', paddingRight: 12 + 'px', borderBottom: 'none'}}>개발 일지</a> 를 통해 자세한 작업 과정을 확인하실 수 있습니다.</p>
 
         </div>
     )
