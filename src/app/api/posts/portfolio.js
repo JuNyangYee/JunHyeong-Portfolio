@@ -5,6 +5,8 @@ const Page = {
         about: "기획, 개발, 디자인 모두 직접 작업하여\nNext.js 기반의 포트폴리오 웹 사이트를 제작했습니다.",
         thumbnail: "/images/works/Portfolio/Portfolio_Thumbnail.png",
         tags: ["Tech", "Web", "Next.js"],
+        fab_github: true,
+        fab_github_url: "https://github.com/JuNyangYee/JunHyeong-Portfolio",
         fab_blog: true,
         fab_blog_url: "https://junyangyee.github.io/posts/PORTFOLIO",
         fab_video: false,

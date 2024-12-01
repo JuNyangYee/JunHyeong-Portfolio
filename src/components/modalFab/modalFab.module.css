@@ -50,7 +50,7 @@
 
 .fabText {
     color: #FFFFFF;
-    font-weight: var(--font-medium);
+    font-weight: var(--font-regular);
     font-size: 0.875rem;
     letter-spacing: -0.05em;
     text-indent: -0.05em;
@@ -91,4 +91,12 @@
     .fabText {
         display: none;
     }
+}
+
+.icon {
+    color: #505050;
+}
+
+.icon[label="Close"] {
+    color: #FFFFFF;
 }

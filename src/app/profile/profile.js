@@ -1,6 +1,7 @@
 import styles from "./profile.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import LinkIcon from '@mui/icons-material/Link';
 
 export default function Profile() {
     return (
@@ -35,7 +36,8 @@ export default function Profile() {
                             <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
                             className={styles.more} target="_blank">
                                 <span className={styles.moreText}>자기소개 더보기</span>
-                                <Image src={"/icons/clickButton.svg"} width={19} height={19} alt="More"></Image>
+                                {/* <Image src={"/icons/clickButton.svg"} width={19} height={19} alt="More"></Image> */}
+                                <LinkIcon sx={{ color:"#787878" }} fontSize="small" />
                             </Link>
                         </div>
                     </div>

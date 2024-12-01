@@ -109,6 +109,8 @@ export default function Modal(props) {
                 </section>
 
                 <FAB 
+                    github={postInfo.fab_github}
+                    github_url={postInfo.fab_github_url}
                     blog={postInfo.fab_blog}
                     blog_url={postInfo.fab_blog_url}
                     video={postInfo.fab_video}
