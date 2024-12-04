@@ -26,8 +26,9 @@
 }
 
 .tagSelect {
-    width: 480px;
+    width: 500px;
     height: 68px;
+
     margin: 0 auto;
     margin-top: 64px;
 
@@ -44,7 +45,7 @@
 }
 
 .button {
-    padding: 12px 30px;
+    padding: 12px 15px;
     border-radius: 999px;
     cursor: pointer;
 }
@@ -54,9 +55,9 @@
     color: #FFFFFF;
 
     font-weight: var(--font-medium);
-    font-size: 1.125rem;
+    font-size: 1.0rem;
 
-    transition: 0.5s;
+    transition: 0.75s;
 }
 
 .none {
@@ -69,14 +70,9 @@
     transition: 0.25s;
 }
 
-.none[name="art"],
-.active[name="art"] {
-    padding: 12px 32px;
-}
-
-.none[name="doc"],
-.active[name="doc"] {
-    padding: 12px 15px;
+.none[name="all"], .none[name="etc"], 
+.active[name="all"], .active[name="etc"] {
+    padding: 12px 24px;
 }
 
 .workList {
@@ -94,29 +90,25 @@
     }
 
     .tagSelect {
-        width: 420px;
+        width: 480px;
+        height: 60px;
     }
 
     .button {
-        padding: 10px 24px;
+        padding: 10px 12px;
     }
 
     .active {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 
     .none {
         font-size: 0.875rem;
     }
 
-    .none[name="art"],
-    .active[name="art"] {
-        padding: 10px 26px;
-    }
-
-    .none[name="doc"],
-    .active[name="doc"] {
-        padding: 10px 12px;
+    .none[name="all"], .none[name="etc"], 
+    .active[name="all"], .active[name="etc"] {
+        padding: 10px 24px;
     }
 } 
 
@@ -134,31 +126,26 @@
     }
 
     .tagSelect {
-        width: 380px;
-        height: 58px;
+        width: 440px;
+        height: 54px;
         margin-top: 48px;
     }
 
     .button {
-        padding: 10px 24px;
+        padding: 10px 12px;
     }
 
     .active {
-        font-size: 1rem;
+        font-size: 0.875rem;
     }
 
     .none {
         font-size: 0.875rem;
     }
 
-    .none[name="art"],
-    .active[name="art"] {
-        padding: 10px 26px;
-    }
-
-    .none[name="doc"],
-    .active[name="doc"] {
-        padding: 10px 12px;
+    .none[name="all"], .none[name="etc"], 
+    .active[name="all"], .active[name="etc"] {
+        padding: 10px 24px;
     }
 
     .workList {

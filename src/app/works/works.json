@@ -1,13 +1,25 @@
 {
     "works": [
+
 		{
 			"index": 1,
-			"mainTag": ["tech"],
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/HyperConnection/HyperConnection_Thumbnail.png",
+			"alt": "HyperConnection-VR_Thumbnail",
+			"title": "Hyper Connection: VR",
+			"sub": "언리얼엔진 PC 컨텐츠를 VR 컨텐츠로 포팅하는 작업을 진행했습니다.",
+			"tags": ["Unreal Engine", "VR", "Tech Art"],
+			"url": "hyper_connection"
+		},
+
+		{
+			"index": 2,
+			"mainTag": ["etc"],
 			"thumbnail": "/images/works/Portfolio/Portfolio_Thumbnail.png",
 			"alt": "JunHyeong-Portfolio_Thumbnail",
-			"title": "Portfolio Page Dev",
-			"sub": "개인 포트폴리오 사이트 제작",
-			"tags": ["Tech", "Web", "Next.js"],
+			"title": "포트폴리오 사이트 개발",
+			"sub": "Next.Js를 활용한 개인 포트폴리오 사이트 제작을 진행했습니다.",
+			"tags": ["Web", "Next.js", "Figma"],
 			"url": "portfolio"
 		}
 	]

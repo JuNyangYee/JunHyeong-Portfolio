@@ -30,15 +30,15 @@ export default function Works() {
                     className={`${styles.button} ${now === "all" ? styles.active : styles.none}`} 
                     name="all">All
                     </div>
-                    <div onClick={() => changeTag("tech")} 
-                    className={`${styles.button} ${now === "tech" ? styles.active : styles.none}`} 
-                    name="tech">Tech</div>
-                    <div onClick={() => changeTag("art")} 
-                    className={`${styles.button} ${now === "art" ? styles.active : styles.none}`} 
-                    name="art">Art</div>
-                    <div onClick={() => changeTag("doc")} 
-                    className={`${styles.button} ${now === "doc" ? styles.active : styles.none}`} 
-                    name="doc">Document</div>
+                    <div onClick={() => changeTag("unreal")} 
+                    className={`${styles.button} ${now === "unreal" ? styles.active : styles.none}`} 
+                    name="unreal">Unreal Engine</div>
+                    <div onClick={() => changeTag("3D")} 
+                    className={`${styles.button} ${now === "3D" ? styles.active : styles.none}`} 
+                    name="3D">3D Graphics</div>
+                    <div onClick={() => changeTag("etc")} 
+                    className={`${styles.button} ${now === "etc" ? styles.active : styles.none}`} 
+                    name="etc">Etc.</div>
                 </div>
 
                 <section className={styles.workList}>

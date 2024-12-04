@@ -63,7 +63,7 @@
 .workText > .workTitle {
     color: #505050;
     font-weight: var(--font-bold);
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     letter-spacing: -0.05em;
 }
 
@@ -72,6 +72,13 @@
     font-weight: var(--font-regular);
     font-size: 1rem;
     letter-spacing: -0.03em;
+    line-height: 140%;
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .workTags {
@@ -88,11 +95,11 @@
 }
 
 .workTags > .workTagButton {
-    padding: 0.5rem 0.625rem;
+    padding: 0.5rem 0.7rem;
     
     color: #FFFFFF;
     font-family: var(--font-montserrat);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-regular);
     font-size: 0.75rem;
     letter-spacing: -0.03em;
 
@@ -110,7 +117,7 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) { 
     .workItem {
-        height: 360px;
+        height: 380px;
     }
 
     .workThumbnail {
@@ -126,15 +133,16 @@
     }
 
     .workTags > .workTagButton {
-        padding: 0.3rem 0.45rem;
+        padding: 0.425rem 0.7rem;
         font-weight: var(--font-regular);
-        font-size: 0.675rem;
+        font-size: 0.7rem;
+        border-radius: 9px;
     }
 } 
 
 @media screen and (max-width:767px) { 
     .workItem {
-        height: 300px;
+        height: 380px;
     }
 
     .workThumbnail {
@@ -146,7 +154,7 @@
     }
 
     .workText {
-        padding: 0 25px;
+        padding: 0 2.5rem;
     }
 
     .workText > .workTitle {
@@ -154,13 +162,14 @@
     }
 
     .workTags {
-        padding: 35px 25px;
+        padding: 35px 2.5rem;
     }
 
     .workTags > .workTagButton {
-        padding: 0.3rem 0.45rem;
+        padding: 0.425rem 0.65rem;
         font-weight: var(--font-regular);
-        font-size: 0.675rem;
+        font-size: 0.7rem;
+        border-radius: 9px;
     }
 } 
 

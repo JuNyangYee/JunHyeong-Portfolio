@@ -88,7 +88,7 @@ export default function Profile() {
                             <h3 className={styles.subTitle}>AWARDS</h3>
                             <ul className={styles.subText}>
                                 <li>
-                                    <span>Smarteen App Challange 엔터테인먼트(게임) 부문 수작</span>
+                                    <span>Smarteen App Challange 엔터테인먼트(게임) 부문 참여</span>
                                     <span className={styles.moreYear}>2017</span>
                                 </li>
                                 <li>
