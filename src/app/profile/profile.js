@@ -29,16 +29,15 @@ export default function Profile() {
                             <div className={styles.text}>
                                 <p>
                                     안녕하세요. <br />
-                                    꿈꾸는 모든 것을 만드는 <strong>테크니컬 아티스트 문준형</strong> 입니다.<br /> <br /> 
-                                    경험이 새로운 경험을 만든다는 생각으로 다양한 것을 시도하고 도전해보며, 어떤 문제가 발생하더라도, 다양한 경험 속에서 얻은 것들로 바탕으로 문제를 유연하게 대처해 나갑니다.
+                                    <strong>팔망미인처럼 다재다능한 테크니컬 아티스트 문준형</strong> 입니다.<br /> <br /> 
+                                    새롭고 다양한 것을 시도하고 도전해보며, 일곱빛의 무지개와 같은 경험들을 쌓아갑니다. 경험이라는 다양한 색을 바탕으로 성장해가며, 새로운 8번째 색이 더해져 여덟색 · 팔방미인의 모습을 갖춘, 다양한 부분에서 도움이 될 수 있는 테크니컬 아티스트가 되고자 합니다.
                                 </p>
                             </div>
-                            <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
+                            {/* <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
                             className={styles.more} target="_blank">
                                 <span className={styles.moreText}>자기소개 더보기</span>
-                                {/* <Image src={"/icons/clickButton.svg"} width={19} height={19} alt="More"></Image> */}
                                 <LinkIcon sx={{ color:"#787878" }} fontSize="small" />
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
                 </section>
