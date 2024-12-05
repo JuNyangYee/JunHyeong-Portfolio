@@ -14,6 +14,17 @@
 
 		{
 			"index": 2,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Way/Way_Thumbnail.jpg",
+			"alt": "Way_Thumbnail",
+			"title": "WAY: A NEW MOMENT",
+			"sub": "언리얼엔진4 기반 VR 체험형 콘텐츠 제작에 테크니컬 아티스트로 참여하였습니다.",
+			"tags": ["Unreal Engine", "VR", "Tech Art"],
+			"url": "way"
+		},
+
+		{
+			"index": 3,
 			"mainTag": ["etc"],
 			"thumbnail": "/images/works/Portfolio/Portfolio_Thumbnail.png",
 			"alt": "JunHyeong-Portfolio_Thumbnail",

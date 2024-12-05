@@ -59,7 +59,10 @@ export default function WorkItem(props) {
                     style={{objectFit: "cover"}} />
             </div>
             <div className={styles.workText}>
-                <h3 className={styles.workTitle}>{info.title}</h3>
+                
+                <h3 className={styles.workTitle}>
+                    <Link href={`/portfolio/${info.url}`} className={styles.workMore} scroll={false} onClick={scrollCont}>{info.title}</Link>
+                </h3>
                 <p className={styles.workSub}>{info.sub}</p>
             </div>
             <div className={styles.workTags}>

@@ -25,11 +25,16 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    background: linear-gradient(to bottom, #F3F5FA, #ffffff);
-    box-shadow: 3px 4px 10px #0000001a;
+
     border-radius: 99999px;
-    border: 0;
+    
+    /* background: linear-gradient(to bottom, #F3F5FA, #ffffff);
+    border: 0; */
+
+    box-shadow: 3px 4px 10px #0000001a;
+
+    border: 1px #dcdcdcd9 solid;
+    background: #ffffff;
 
     cursor: pointer;
 }
