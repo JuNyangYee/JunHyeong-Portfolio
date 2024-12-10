@@ -86,19 +86,25 @@
 }
 
 .workTags {
+    width: 100%;
+    box-sizing: border-box;
     position: absolute;
     padding: 35px 40px;
     bottom: 0;
+    
+}
 
+.workTags > .tagArea {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
 
     flex-wrap: nowrap;
     white-space: nowrap;
+    overflow: auto;
 }
 
-.workTags > .workTagButton {
+.tagArea > .workTagButton {
     padding: 0.5rem 0.7rem;
     
     color: #FFFFFF;

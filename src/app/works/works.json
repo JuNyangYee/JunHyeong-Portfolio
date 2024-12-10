@@ -25,6 +25,28 @@
 
 		{
 			"index": 3,
+			"mainTag": ["unreal", "3D"],
+			"thumbnail": "/images/works/BlueDot/BlueDot_Thumbnail.png",
+			"alt": "PaleBlueDot_Thumbnail",
+			"title": "The Earth: Pale Blue Dot",
+			"sub": "언리얼엔진을 이용한 시네마틱 영상을 제작했습니다.",
+			"tags": ["Unreal Engine", "3D Graphics", "Cinemtaic"],
+			"url": "blue_dot"
+		},
+
+		{
+			"index": 4,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Fungi/Fungi_Thumbnail.png",
+			"alt": "Fungi_Thumbnail",
+			"title": "The Future is Fungi",
+			"sub": "언리얼엔진4 기반 미디어 아트 작품 제작에 테크니컬 아티스트로 참여하였습니다.",
+			"tags": ["Unreal Engine", "Tech Art"],
+			"url": "fungi"
+		},
+
+		{
+			"index": 5,
 			"mainTag": ["etc"],
 			"thumbnail": "/images/works/Portfolio/Portfolio_Thumbnail.png",
 			"alt": "JunHyeong-Portfolio_Thumbnail",

@@ -66,7 +66,9 @@ export default function WorkItem(props) {
                 <p className={styles.workSub}>{info.sub}</p>
             </div>
             <div className={styles.workTags}>
-                {tagSetting(info.tags)}
+                <div className={styles.tagArea}>
+                    {tagSetting(info.tags)}
+                </div>
             </div>
         </div>
     );
