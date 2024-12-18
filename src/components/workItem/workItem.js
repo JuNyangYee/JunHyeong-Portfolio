@@ -52,6 +52,7 @@ export default function WorkItem(props) {
                 </div>
                 <Image 
                     loader={()=>info.thumbnail}
+                    unoptimized={true}
                     src={info.thumbnail} 
                     fill
                     alt={info.alt}

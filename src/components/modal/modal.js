@@ -1,5 +1,6 @@
 'use client'
 import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import Image from "next/image";
 import styles from "./modal.module.css";
 import mdStyles from "./modalMarkdown.module.css";
@@ -36,6 +37,24 @@ export default function Modal(props) {
         setImg(img);
     }
    
+    const escInput = () => {
+        if (showModal) {
+            modalChange();
+        }
+        else {
+            router.back();
+        }
+    }
+
+    useEffect(() => {
+        const keyDownHandler = (e) => escInput();
+        
+        document.addEventListener("keydown", keyDownHandler);
+
+        return () => {
+            document.removeEventListener("keydown", keyDownHandler);
+        };
+    });
 
     function imgSetting(imgs) {
         return (

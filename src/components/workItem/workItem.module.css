@@ -65,6 +65,10 @@
     font-weight: var(--font-bold);
     font-size: 1.375rem;
     letter-spacing: -0.05em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -moz-white-space: nowrap;
+    overflow: hidden;
 }
 
 .workTitle:hover {
@@ -101,7 +105,9 @@
 
     flex-wrap: nowrap;
     white-space: nowrap;
-    overflow: auto;
+    overflow-x: auto;
+
+    padding-bottom: 2px;
 }
 
 .tagArea > .workTagButton {
@@ -127,7 +133,7 @@
 
 @media screen and (min-width:768px) and (max-width:1279px) { 
     .workItem {
-        height: 380px;
+        height: 385px;
     }
 
     .workThumbnail {
@@ -140,6 +146,10 @@
 
     .workText > .workTitle {
         font-size: 1.25rem;
+    }
+
+    .workText > .workSub {
+        font-size: 0.925rem;
     }
 
     .workTags > .workTagButton {
@@ -165,6 +175,10 @@
 
     .workText {
         padding: 0 2.5rem;
+    }
+
+    .workText > .workSub {
+        font-size: 0.95rem;
     }
 
     .workText > .workTitle {

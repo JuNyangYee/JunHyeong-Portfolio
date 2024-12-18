@@ -15,7 +15,7 @@
 		{
 			"index": 2,
 			"mainTag": ["unreal"],
-			"thumbnail": "/images/works/Way/Way_Thumbnail.jpg",
+			"thumbnail": "/images/works/Way/Way_Thumbnail.png",
 			"alt": "Way_Thumbnail",
 			"title": "WAY: A NEW MOMENT",
 			"sub": "언리얼엔진4 기반 VR 체험형 콘텐츠 제작에 테크니컬 아티스트로 참여하였습니다.",
@@ -36,17 +36,28 @@
 
 		{
 			"index": 4,
+			"mainTag": ["3D"],
+			"thumbnail": "/images/works/AstonMartin/AstonMartin_Thumbnail.png",
+			"alt": "AstonMartin_Thumbnail",
+			"title": "Old Aston Martin",
+			"sub": "에스턴마틴 차량 텍스쳐링 및 렌더링을 진행하였습니다.",
+			"tags": ["3D Graphics", "Substance Painter", "Substance Designer"],
+			"url": "aston_martin"
+		},
+
+		{
+			"index": 7,
 			"mainTag": ["unreal"],
 			"thumbnail": "/images/works/Fungi/Fungi_Thumbnail.png",
 			"alt": "Fungi_Thumbnail",
 			"title": "The Future is Fungi",
 			"sub": "언리얼엔진4 기반 미디어 아트 작품 제작에 테크니컬 아티스트로 참여하였습니다.",
-			"tags": ["Unreal Engine", "Tech Art"],
+			"tags": ["Unreal Engine", "Niagara", "Tech Art"],
 			"url": "fungi"
 		},
 
 		{
-			"index": 5,
+			"index": 8,
 			"mainTag": ["etc"],
 			"thumbnail": "/images/works/Portfolio/Portfolio_Thumbnail.png",
 			"alt": "JunHyeong-Portfolio_Thumbnail",
@@ -54,6 +65,41 @@
 			"sub": "Next.Js를 활용한 개인 포트폴리오 사이트 제작을 진행했습니다.",
 			"tags": ["Web", "Next.js", "Figma"],
 			"url": "portfolio"
+		}
+	],
+
+	"temp": [
+		{
+			"index": 5,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Portal/Portal_Thumbnail.png",
+			"alt": "PortalSystem_Thumbnail",
+			"title": "Portal System",
+			"sub": "언리얼엔진에서 사용 가능한 포탈 시스템을 제작하였습니다.",
+			"tags": ["Unreal Engine", "Tech", "Dev"],
+			"url": "portal"
+		},
+
+		{
+			"index": 9,
+			"mainTag": ["etc"],
+			"thumbnail": "/images/works/QR/QR_Thumbnail.png",
+			"alt": "QR-Contents_Thumbnail",
+			"title": "TouchDesigner QR 인식 컨텐츠 개발",
+			"sub": "터치디자이너를 활용하여 QR 인식 활용 컨텐츠를 개발하였습니다.",
+			"tags": ["TouchDesigner", "Tech", "Dev"],
+			"url": "qr_td"
+		},
+
+		{
+			"index": 6,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Marvelous/Marvelous_Thumbnail.png",
+			"alt": "The-Marvelous_Thumbnail",
+			"title": "The Marvelous",
+			"sub": "언리얼엔진으로 제작한 1인 개발 1인칭 탈출 PC 게임입니다.",
+			"tags": ["Unreal Engine", "Game", "One-Person Dev"],
+			"url": "marvelous"
 		}
 	]
 }

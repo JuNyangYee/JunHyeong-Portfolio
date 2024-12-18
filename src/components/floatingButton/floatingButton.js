@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import PersonIcon from '@mui/icons-material/Person';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import PictureAsPdfIcon from '@mui/icons-material/PictureAsPdf';
 
 export default function FloatingButton() {
 
@@ -15,9 +16,22 @@ export default function FloatingButton() {
         element?.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
     };
 
+    const warning = function () {
+        alert("아직 준비 중입니다. \n곧 완성되니 조금만 더 기다려주세요 :)");
+    }
+
     return (
         <section className={styles.floatingButton}>
             <div className={styles.floatingList}>
+
+                <div className={styles.floatingItem}>
+                    <div className={styles.tooltip}>
+                        <span>PDF PORTFOLIO</span>
+                    </div>
+                    <button className={styles.button} onClick={() => warning()}>
+                        <PictureAsPdfIcon className={styles.icon} label="PDF" fontSize="medium"/>
+                    </button>
+                </div>
 
                 <div className={styles.floatingItem}>
                     <div className={styles.tooltip}>

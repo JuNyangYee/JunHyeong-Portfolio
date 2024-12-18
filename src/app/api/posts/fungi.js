@@ -4,7 +4,7 @@ const Page = {
         date: "2021. 08 ~ 2021. 10\n· FutureShow 2021 전시",
         about: "언리얼엔진4 기반 미디어 아트 작품 제작에 테크니컬 아티스트로 참여하였습니다.",
         thumbnail: "/images/works/Fungi/Fungi_Thumbnail.png",
-        tags: ["Unreal Engine", "Tech Art"],
+        tags: ["Unreal Engine", "Niagara", "Tech Art"],
         fab_github: false,
         fab_github_url: "",
         fab_blog: false,
@@ -18,9 +18,9 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "작품 전시 이미지",
+            title: "썸네일",
             url: "/images/works/Fungi/Fungi_Thumbnail.png",
-            alt: "Projection Image"
+            alt: "Thumbnail"
         },
     ],
 

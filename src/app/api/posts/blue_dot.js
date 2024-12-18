@@ -18,7 +18,7 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "작품 썸네일",
+            title: "썸네일",
             url: "/images/works/BlueDot/BlueDot_Thumbnail.png",
             alt: "Thumbnail"
         },

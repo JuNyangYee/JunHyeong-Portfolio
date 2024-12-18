@@ -19,37 +19,37 @@ const Page = {
         {
             index: 1,
             title: "메인 페이지",
-            url: "/images/works/Portfolio/Portfolio_Thumbnail.png",
+            url: "/images/works/Portfolio/Portfolio_001_Main.png",
             alt: "Main Page"
         },
         {
             index: 2,
             title: "프로필 페이지 01",
-            url: "/images/works/Portfolio/Portfolio_Profile.png",
+            url: "/images/works/Portfolio/Portfolio_002_Profile.png",
             alt: "Profile Page 01"
         },
         {
             index: 3,
             title: "프로필 페이지 02",
-            url: "/images/works/Portfolio/Portfolio_Profile02.png",
+            url: "/images/works/Portfolio/Portfolio_003_Profile.png",
             alt: "Profile Page 02"
         },
         {
             index: 4,
             title: "작업물 페이지",
-            url: "/images/works/Portfolio/Portfolio_Works.png",
+            url: "/images/works/Portfolio/Portfolio_004_Works.png",
             alt: "Works Page"
         },
         {
             index: 5,
             title: "작업물 모달창",
-            url: "/images/works/Portfolio/Portfolio_Works_Modal.png",
+            url: "/images/works/Portfolio/Portfolio_005_Works_Modal.png",
             alt: "Works Modal Page"
         },
         {
             index: 6,
             title: "컨텍 페이지",
-            url: "/images/works/Portfolio/Portfolio_Contact.png",
+            url: "/images/works/Portfolio/Portfolio_006_Contact.png",
             alt: "Contact Page"
         },
     ],

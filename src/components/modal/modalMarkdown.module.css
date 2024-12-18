@@ -1091,3 +1091,9 @@
 .markdown p {
   font-size: 15px;
 }
+
+.markdownSection > .markdown:first-child img {
+  margin-top: 10px;
+  margin-bottom: 14px;
+  margin-left: 0;
+}

@@ -3,7 +3,7 @@ const Page = {
         title: "WAY: A NEW MOMENT",
         date: "2021. 04 ~ 2021. 10\n· 서울예술대학교 2021 디지털아트 페스티벌 전시\n· 세운상가 세운홀 전시",
         about: "언리얼엔진4 기반 VR 체험형 콘텐츠 제작에 테크니컬 아티스트로 참여하였습니다.",
-        thumbnail: "/images/works/Way/Way_Thumbnail.jpg",
+        thumbnail: "/images/works/Way/Way_Thumbnail.png",
         tags: ["Unreal Engine", "VR", "Tech Art"],
         fab_github: false,
         fab_github_url: "",
@@ -18,9 +18,9 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "전시 포스터",
-            url: "/images/works/Way/Way_Thumbnail.jpg",
-            alt: "Main Page"
+            title: "썸네일",
+            url: "/images/works/Way/Way_Thumbnail.png",
+            alt: "Thumbnail"
         },
     ],
 
@@ -110,13 +110,13 @@ const Page = {
                 </tbody>
             </table>
             <p>
-                전시에 사용한 PC는 당시 최고사양 PC였지만, 그 PC로 작업을 할 수 없다보니,  <br />
+                전시에 사용한 PC는 당시 고사양 PC였지만, 그 PC로 작업을 할 수 없다보니,  <br />
                 모든 최적화를 제 개인 PC에 맞춰서 진행하게 되었습니다.<br />
                 그렇게 오히려 낮은 사양의 기준으로 작업을 진행하니, 추후 전시에서 원활하게 실행되었던 것 같습니다.<br />
             </p>
             <p>
                 지금은 고사양으로 다시 데스크탑을 맞췄지만, <br />
-                그 이후로, 저사양 테스트를 대비해 여전히 옛 PC를 남겨두고 있습니다.
+                그 이후로, 저사양 테스트를 대비한다는 핑계로 여전히 옛 PC를 남겨두고 있습니다.
             </p>
 
             <hr />
