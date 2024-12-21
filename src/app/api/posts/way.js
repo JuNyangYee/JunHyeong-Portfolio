@@ -18,9 +18,75 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "썸네일",
-            url: "/images/works/Way/Way_Thumbnail.png",
-            alt: "Thumbnail"
+            title: "인트로",
+            url: "/images/works/Way/Way_001_Thumbnail.png",
+            alt: "Intro"
+        },
+        {
+            index: 2,
+            title: "복도",
+            url: "/images/works/Way/Way_002_HallWay.png",
+            alt: "HallWay"
+        },
+        {
+            index: 3,
+            title: "복도 회전",
+            url: "/images/works/Way/Way_003_Screw.png",
+            alt: "HallWay_Screw"
+        },
+        {
+            index: 4,
+            title: "포탈",
+            url: "/images/works/Way/Way_004_Portal.png",
+            alt: "Portal"
+        },
+        {
+            index: 5,
+            title: "유적",
+            url: "/images/works/Way/Way_005_SquareRoof.png",
+            alt: "Roof"
+        },
+        {
+            index: 6,
+            title: "계단",
+            url: "/images/works/Way/Way_006_Stairs.png",
+            alt: "Stairs"
+        },
+        {
+            index: 7,
+            title: "칼레이도 스코프 01",
+            url: "/images/works/Way/Way_007_Kaleido01.png",
+            alt: "Kaleido_01"
+        },
+        {
+            index: 8,
+            title: "칼레이도 스코프 02",
+            url: "/images/works/Way/Way_008_Kaleido02.png",
+            alt: "Kaleido_02"
+        },
+        {
+            index: 9,
+            title: "칼레이도 스코프 03",
+            url: "/images/works/Way/Way_009_Kaleido03.png",
+            alt: "Kaleido_03"
+        },
+        {
+            index: 10,
+            title: "엔딩",
+            url: "/images/works/Way/Way_010_Ending.png",
+            alt: "Ending"
+        },
+        {
+            index: 11,
+            title: "Shader Complexity",
+            url: "/images/works/Way/Way_012_ShaderComplexity.png",
+            alt: "ShaderComplexity"
+        },
+        {
+            index: 12,
+            title: "Object Culling",
+            url: "/images/works/Way/Way_013_Culling.png",
+            alt: "ObjectCulling"
         },
     ],
 
@@ -54,8 +120,13 @@ const Page = {
                     언리얼엔진 내에서 알렘빅 캐시를 플레이하고 유지될 때 프레임 드랍이 심해져, 알렘빅 캐시 플레이 종료 후 스태틱 메쉬 액터로 변환되도록 설정했습니다.
                 </li>
                 <li><strong>라이팅</strong><br />
-                    크기가 큰 실측 건물 기준의 에셋을 사용하다보니 기존 라이팅 방법으로는 라이트 빌드 오류가 발생하는 문제가 있어, <strong>LPV (Light Propagation Volume)</strong>를 사용하여 빌드없이 실시간 동적 라이팅을 사용했습니다.<br />
+                    크기가 큰 실측 건물 기준의 에셋을 사용하다보니 기존 라이팅 방법으로는 라이트 빌드 오류가 발생하는 문제가 생겼습니다. <br/>
+                    해당 문제를 해결하기 위해 <strong>LPV (Light Propagation Volume)</strong>를 사용하여 빌드없이 실시간 동적 라이팅을 사용했습니다.<br />
                     수정된 라이팅 시스템 기반으로 새롭게 라이팅 작업을 진행했습니다.
+                </li>
+                <li><strong>텍스쳐링</strong><br />
+                    Quixel Megascan 메테리얼 및 텍스쳐 에셋을 이용해 UV 타일링/오프셋 조절 및 PBR 수치를 수정하여 작업했습니다. <br />
+                    추가로 제작이 필요한 부분은 Substance Designer를 이용해 간단하게 제작해 사용했습니다.
                 </li>
                 <li><strong>UMG UI 디자인</strong><br />
                     PC와 VR 모두 대응할 수 있는 UI를 작업했습니다.<br />
@@ -124,13 +195,13 @@ const Page = {
             <h3>사용 기술 및 프로그램</h3>
             <ul>
                 <li><strong>Unreal Engine 4.26.2</strong><br />
-                    전체 시스템은 블루프린트 기반으로 작업되었습니다. <br />
+                    블루프린트 프로그래밍 및 최적화 등 대부분의 작업을 언리얼엔진을 활용해 작업했습니다.
                 </li>
                 <li><strong>Substance Designer</strong><br />
-                    메가스캔 메테리얼 이외에 제작이 간단하게 필요한 텍스쳐들을 제작해서 사용하였습니다. <br />
+                    메가스캔 메테리얼 이외에 제작이 간단하게 필요한 텍스쳐들을 제작해서 사용하였습니다.
                 </li>
                 <li><strong>TortoiseSVN</strong><br />
-                    여러 팀원이 작업하기에, TortoiseSVN을 활용해 버전 관리를 진행했습니다.<br />
+                    여러 팀원이 작업하기에, TortoiseSVN을 활용해 버전 관리를 진행했습니다.
                 </li>
             </ul>
         </div>

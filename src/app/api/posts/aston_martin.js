@@ -18,9 +18,69 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "썸네일",
-            url: "/images/works/AstonMartin/AstonMartin_Thumbnail.png",
-            alt: "Thumbnail"
+            title: "렌더링 01 (Unreal Engine)",
+            url: "/images/works/AstonMartin/AstonMartin_001_Render01.png",
+            alt: "Render_UE01"
+        },
+        {
+            index: 2,
+            title: "렌더링 02 (Unreal Engine)",
+            url: "/images/works/AstonMartin/AstonMartin_002_Render02.png",
+            alt: "Render_UE02"
+        },
+        {
+            index: 3,
+            title: "렌더링 03 (Substance Painter iray)",
+            url: "/images/works/AstonMartin/AstonMartin_003_iray01.png",
+            alt: "Render_iray01"
+        },
+        {
+            index: 4,
+            title: "렌더링 04 (Substance Painter iray)",
+            url: "/images/works/AstonMartin/AstonMartin_004_iray02.png",
+            alt: "Render_iray02"
+        },
+        {
+            index: 5,
+            title: "렌더링 05 (Substance Painter iray)",
+            url: "/images/works/AstonMartin/AstonMartin_005_iray03.png",
+            alt: "Render_iray03"
+        },
+        {
+            index: 6,
+            title: "렌더링 06 (Substance Painter iray)",
+            url: "/images/works/AstonMartin/AstonMartin_006_iray04.png",
+            alt: "Render_iray04"
+        },
+        {
+            index: 7,
+            title: "Substance Painter Works",
+            url: "/images/works/AstonMartin/AstonMartin_007_SPP.png",
+            alt: "SubstancePainter"
+        },
+        {
+            index: 8,
+            title: "Asphalt (Substance Designer)",
+            url: "/images/works/AstonMartin/AstonMartin_008_Asphalt_sbs.png",
+            alt: "SubstanceDesigner_Asphalt"
+        },
+        {
+            index: 9,
+            title: "Asphalt (Unreal Engine)",
+            url: "/images/works/AstonMartin/AstonMartin_009_Asphalt.png",
+            alt: "Asphalt_UnrealEngine"
+        },
+        {
+            index: 10,
+            title: "Mud (Substance Designer)",
+            url: "/images/works/AstonMartin/AstonMartin_010_Sand_sbs.png",
+            alt: "SubstanceDesigner_Mud"
+        },
+        {
+            index: 11,
+            title: "Mud (Unreal Engine)",
+            url: "/images/works/AstonMartin/AstonMartin_011_Sand.png",
+            alt: "Sand_UnrealEngine"
         },
     ],
 
@@ -49,7 +109,9 @@ const Page = {
                 </li>
                 <li><strong>Substance Painter 텍스쳐링</strong><br />
                     페인터에서 제공하는 텍스쳐 베이킹을 활용해 normal, ao등의 맵들을 베이킹했습니다. <br />
-                    차량의 느낌을 최대한 살리면서, 오래된 흔적이 남아있어보이도록 작업하였습니다.
+                    Clear Coat 재질 표현을 위해 <code>ASM-PBR Metallic Roughness Coated</code> 모델을 사용했으며,
+                    차량의 느낌을 최대한 살리면서 오래된 흔적이 남아있어보이도록 작업하였습니다.<br />
+                    차량 유리의 경우 Alpha Shader를 분리하여 <code>PBR-Metal Rough with alpha blending</code> 모델을 사용했습니다.
                 </li>
                 <li><strong>Substance Designer</strong><br />
                     언리얼엔진에서 렌더링할 때 필요한 바닥 텍스쳐를 제작했습니다.<br />

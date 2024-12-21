@@ -19,8 +19,44 @@ const Page = {
         {
             index: 1,
             title: "썸네일",
-            url: "/images/works/BlueDot/BlueDot_Thumbnail.png",
+            url: "/images/works/BlueDot/BlueDot_001_Thumbnail.png",
             alt: "Thumbnail"
+        },
+        {
+            index: 2,
+            title: "DNA 장면",
+            url: "/images/works/BlueDot/BlueDot_002_DNA.png",
+            alt: "DNA_Scene"
+        },
+        {
+            index: 3,
+            title: "식물 장면",
+            url: "/images/works/BlueDot/BlueDot_003_Plants.png",
+            alt: "Plants_Scene"
+        },
+        {
+            index: 4,
+            title: "사슴 장면",
+            url: "/images/works/BlueDot/BlueDot_004_Deer.png",
+            alt: "Deer_Scene"
+        },
+        {
+            index: 5,
+            title: "도시 장면",
+            url: "/images/works/BlueDot/BlueDot_005_City.png",
+            alt: "City_Scene"
+        },
+        {
+            index: 6,
+            title: "언리얼엔진-지구",
+            url: "/images/works/BlueDot/BlueDot_005_Earth_UE.png",
+            alt: "UE_Earth"
+        },
+        {
+            index: 7,
+            title: "언리얼엔진-사슴",
+            url: "/images/works/BlueDot/BlueDot_006_Deer_UE.png",
+            alt: "UE_Earth"
         },
     ],
 

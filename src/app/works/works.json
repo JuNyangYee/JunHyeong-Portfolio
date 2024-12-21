@@ -46,6 +46,17 @@
 		},
 
 		{
+			"index": 6,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Marvelous/Marvelous_Thumbnail.png",
+			"alt": "The-Marvelous_Thumbnail",
+			"title": "The Marvelous",
+			"sub": "언리얼엔진으로 제작한 1인 개발 1인칭 탈출 PC 게임입니다.",
+			"tags": ["Unreal Engine", "Game", "One-Person Dev"],
+			"url": "marvelous"
+		},
+
+		{
 			"index": 7,
 			"mainTag": ["unreal"],
 			"thumbnail": "/images/works/Fungi/Fungi_Thumbnail.png",
@@ -65,6 +76,17 @@
 			"sub": "Next.Js를 활용한 개인 포트폴리오 사이트 제작을 진행했습니다.",
 			"tags": ["Web", "Next.js", "Figma"],
 			"url": "portfolio"
+		},
+
+		{
+			"index": 9,
+			"mainTag": ["etc"],
+			"thumbnail": "/images/works/QR/QR_Thumbnail.png",
+			"alt": "QR-Contents_Thumbnail",
+			"title": "TouchDesigner QR 인식 컨텐츠 개발",
+			"sub": "터치디자이너를 활용하여 QR 인식 활용 컨텐츠를 개발하였습니다.",
+			"tags": ["TouchDesigner", "Tech", "Dev"],
+			"url": "qr_td"
 		}
 	],
 
@@ -78,28 +100,6 @@
 			"sub": "언리얼엔진에서 사용 가능한 포탈 시스템을 제작하였습니다.",
 			"tags": ["Unreal Engine", "Tech", "Dev"],
 			"url": "portal"
-		},
-
-		{
-			"index": 9,
-			"mainTag": ["etc"],
-			"thumbnail": "/images/works/QR/QR_Thumbnail.png",
-			"alt": "QR-Contents_Thumbnail",
-			"title": "TouchDesigner QR 인식 컨텐츠 개발",
-			"sub": "터치디자이너를 활용하여 QR 인식 활용 컨텐츠를 개발하였습니다.",
-			"tags": ["TouchDesigner", "Tech", "Dev"],
-			"url": "qr_td"
-		},
-
-		{
-			"index": 6,
-			"mainTag": ["unreal"],
-			"thumbnail": "/images/works/Marvelous/Marvelous_Thumbnail.png",
-			"alt": "The-Marvelous_Thumbnail",
-			"title": "The Marvelous",
-			"sub": "언리얼엔진으로 제작한 1인 개발 1인칭 탈출 PC 게임입니다.",
-			"tags": ["Unreal Engine", "Game", "One-Person Dev"],
-			"url": "marvelous"
 		}
 	]
 }

@@ -47,7 +47,13 @@ export default function Modal(props) {
     }
 
     useEffect(() => {
-        const keyDownHandler = (e) => escInput();
+        const keyDownHandler = (e) => {
+            // console.log(e.key);
+
+            if(e.key === "Escape") {
+                escInput();
+            }
+        };
         
         document.addEventListener("keydown", keyDownHandler);
 

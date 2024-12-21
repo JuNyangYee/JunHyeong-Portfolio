@@ -18,9 +18,57 @@ const Page = {
     imgData: [
         {
             index: 1,
-            title: "썸네일",
-            url: "/images/works/Fungi/Fungi_Thumbnail.png",
-            alt: "Thumbnail"
+            title: "Scene01 Dark",
+            url: "/images/works/Fungi/Fungi_001_Dark.png",
+            alt: "Scene01_Dark"
+        },
+        {
+            index: 2,
+            title: "Scene02 Particles",
+            url: "/images/works/Fungi/Fungi_002_Particles.png",
+            alt: "Scene02_Particles"
+        },
+        {
+            index: 3,
+            title: "Scene03 Spore",
+            url: "/images/works/Fungi/Fungi_003_Spore.png",
+            alt: "Scene03_Spore"
+        },
+        {
+            index: 4,
+            title: "Scene04 Light 01",
+            url: "/images/works/Fungi/Fungi_004_Light01.png",
+            alt: "Scene04_Light01"
+        },
+        {
+            index: 5,
+            title: "Scene04 Light 02",
+            url: "/images/works/Fungi/Fungi_005_Light02.png",
+            alt: "Scene04_Light02"
+        },
+        {
+            index: 6,
+            title: "Niagara 이펙트 종합 레벨",
+            url: "/images/works/Fungi/Fungi_006_NiagaraLevels.png",
+            alt: "NiagaraLevel"
+        },
+        {
+            index: 7,
+            title: "Mesh Distance Field Effect (Niagara)",
+            url: "/images/works/Fungi/Fungi_007_MeshDistanceField.png",
+            alt: "MeshDistanceField"
+        },
+        {
+            index: 8,
+            title: "Shader Complexity",
+            url: "/images/works/Fungi/Fungi_008_ShaderComplexity.png",
+            alt: "ShaderComplexity"
+        },
+        {
+            index: 9,
+            title: "LOD",
+            url: "/images/works/Fungi/Fungi_009_LOD.png",
+            alt: "LOD"
         },
     ],
 
@@ -44,7 +92,7 @@ const Page = {
                 <li><strong>나이아가라 이펙트 제작</strong><br />
                     나이아가라를 활용해 이펙트 제작을 진행했습니다. <br />
                     오브젝트를 따라 이동하는 이펙트들은, Mesh distance feild 기반으로 이동하도록 제작했습니다.<br />
-                    룩뎁에 사용하는 이펙트 이외에, 테크를 진행하는 측에서 사용할 이펙트들은 한 레벨에 모아 확인할 수 있도록 제작했습니다.
+                    룩뎁에 사용하는 이펙트 이외에, 테크를 진행하는 측에서 사용할 이펙트들은 한 레벨에 모아두어, 각 이펙트들을 어떻게 사용해야하는지 텍스트와 함께 확인할 수 있도록 제작했습니다.
                 </li>
                 <li><strong>최적화</strong><br />
                     전달받은 3D 에셋들의 경우, 폴리곤 갯수가 적게는 2만개에서 많게는 120만개 정도 되는 매우 높은 하이폴리곤 매쉬였습니다.<br />
