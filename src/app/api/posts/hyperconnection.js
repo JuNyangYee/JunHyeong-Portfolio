@@ -25,7 +25,7 @@ const Page = {
         {
             index: 2,
             title: "레벨 전체 샷",
-            url: "/images/works/HyperConnection/HyperConnection_001_Fullshot.png",
+            url: "/images/works/HyperConnection/HyperConnection_001_FullShot.png",
             alt: "FullShot"
         },
     ],
