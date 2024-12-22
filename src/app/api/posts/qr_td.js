@@ -9,8 +9,8 @@ const Page = {
         fab_github_url: "",
         fab_blog: false,
         fab_blog_url: "",
-        fab_video: false,
-        fab_video_url: "",
+        fab_video: true,
+        fab_video_url: "https://youtu.be/CEjY63DiqDE",
         fab_link: false,
         fab_link_url: "",
     },
@@ -52,8 +52,8 @@ const Page = {
         <div>
             <h3>소개</h3>
             <p>
-                2D 픽셀아트 기반으로 제작된 이미지가 QR 인식을 통해 생성되어 돌아다니게 제작한 작품입니다. <br />
-                터치디자이너를 사용하여 작업했습니다.
+                QR 인식을 활용한 인터랙티브 미디어 아트 작품 입니다.
+                TouchDesigner에서 <code>pyzbar</code> 라이브러리를 활용해 QR 인식 시스템을 제작했습니다.
             </p>
 
             <hr />
