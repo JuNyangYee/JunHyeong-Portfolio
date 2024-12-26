@@ -29,9 +29,9 @@ export default function Profile() {
                             <div className={styles.text}>
                                 <p>
                                     안녕하세요. <br />
-                                    <strong>팔망미인</strong> 처럼 <strong>다재다능한 테크니컬 아티스트 문준형</strong> 입니다.<br /> <br /> 
+                                    <strong>팔망미인</strong> 처럼 <strong>다재다능</strong>을 꿈꾸는 <strong>문준형</strong> 입니다.<br /> <br /> 
                                     새롭고 다양한 것을 시도하고 도전해보며, 일곱빛의 무지개와 같은 경험들을 쌓아갑니다. <br />
-                                    <strong>경험</strong> 이라는 다양한 색을 바탕으로 피어난 새로운 8번째 색이 더해져 여덟색 · 팔방미인의 모습을 갖춘, 다양한 부분에서 활약하고 도움이 될 수 있는 테크니컬 아티스트가 되겠습니다.
+                                    <strong>경험</strong> 이라는 다양한 색을 바탕으로 피어난 새로운 8번째 색이 더해져 여덟색 · 팔방미인의 모습을 갖춘, 다양한 부분에서 활약하고 도움이 될 수 있는 사람이 되겠습니다.
                                 </p>
                             </div>
                             {/* <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
