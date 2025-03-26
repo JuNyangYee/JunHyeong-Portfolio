@@ -17,7 +17,7 @@ export default function FloatingButton() {
     };
 
     const warning = function () {
-        alert("아직 준비 중입니다. \n곧 완성되니 조금만 더 기다려주세요 :)");
+        alert("구글드라이브로 연결됩니다 :)");
     }
 
     return (
@@ -28,9 +28,12 @@ export default function FloatingButton() {
                     <div className={styles.tooltip}>
                         <span>PDF PORTFOLIO</span>
                     </div>
-                    <button className={styles.button} onClick={() => warning()}>
-                        <PictureAsPdfIcon className={styles.icon} label="PDF" fontSize="medium"/>
-                    </button>
+                    <Link href="https://drive.google.com/file/d/1Oyu3508ywac1ETO2pcNaKf0ZFbyHZ4A_/view?usp=drive_link" target="_blank">
+                        {/* <button className={styles.button} onClick={() => warning()}> */}
+                        <button className={styles.button}>
+                            <PictureAsPdfIcon className={styles.icon} label="PDF" fontSize="medium"/>
+                        </button>
+                    </Link>
                 </div>
 
                 <div className={styles.floatingItem}>
