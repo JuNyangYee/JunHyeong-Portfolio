@@ -55,9 +55,9 @@
 
 .titleText {
     font-size: 3rem;
-    color: #000000;
-    font-weight: var(--font-bold);
-    letter-spacing: -0.07rem;
+    color: #29292b;
+    font-weight: 800;
+    letter-spacing: -0.2rem;
 }
 
 .titleSub {

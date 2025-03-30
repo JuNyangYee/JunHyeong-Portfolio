@@ -28,17 +28,18 @@ export default function Profile() {
                             </div>
                             <div className={styles.text}>
                                 <p>
-                                    안녕하세요. <br />
-                                    <strong>팔망미인</strong> 처럼 <strong>다재다능</strong>을 꿈꾸는 <strong>문준형</strong> 입니다.<br /> <br /> 
-                                    새롭고 다양한 것을 시도하고 도전해보며, 일곱빛의 무지개와 같은 경험들을 쌓아갑니다. <br />
-                                    <strong>경험</strong> 이라는 다양한 색을 바탕으로 피어난 새로운 8번째 색이 더해져 여덟색 · 팔방미인의 모습을 갖춘, 다양한 부분에서 활약하고 도움이 될 수 있는 사람이 되겠습니다.
+                                    <strong>안녕하세요. <br />
+                                    일곱 빛의 경험을 바탕으로, 여덟 빛 팔방미인이 되고자하는 문준형 입니다. </strong><br /> <br /> 
+                                    저는 새로운 도전을 두려워하지 않고 그 도전을 통한 다양한 경험을 바탕으로 새로운 것을 빠르게 배우고 문제를 해결해나갑니다.
+                                    그렇게 쌓아진 일곱 빛 무지개와 같은 경험들을 바탕으로 성장하여, 여덟 빛 팔방미인의 모습을 갖춘, 다양한 부분에서 활약하고 도움이 될 수 있는 사람이 되고자 합니다.<br />
+                                    앞으로도 계속해서 도전을 멈추지 않고, 변화하는 환경 속에서 성장하며 더 나은 결과물을 만들어가겠습니다.
                                 </p>
                             </div>
-                            {/* <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
+                            <Link href="https://junyangyee.notion.site/about-me?pvs=4" 
                             className={styles.more} target="_blank">
                                 <span className={styles.moreText}>자기소개 더보기</span>
                                 <LinkIcon sx={{ color:"#787878" }} fontSize="small" />
-                            </Link> */}
+                            </Link>
                         </div>
                     </div>
                 </section>

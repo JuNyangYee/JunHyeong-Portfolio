@@ -7,8 +7,8 @@ export default function Main() {
             <section className={styles.mainPage}>
 
                 <div className={styles.title}>
-                    <h1 className={styles.titleText}>꿈꾸는 모든 것을 만들다</h1>
-                    <p className={styles.titleSub}>팔방미인처럼 다재다능을 꿈꾸는 문준형입니다.</p>
+                    <h1 className={styles.titleText}>의미없는 경험은 없다</h1>
+                    <p className={styles.titleSub}>일곱 빛의 경험을 바탕으로, 여덟 빛 팔방미인이 되고자 하는 문준형입니다.</p>
                 </div>
                 
             </section>
