@@ -88,16 +88,16 @@ export default function Profile() {
                             <h3 className={styles.subTitle}>AWARDS</h3>
                             <ul className={styles.subText}>
                                 <li>
-                                    <span>Smarteen App Challange 엔터테인먼트(게임) 부문 참여</span>
+                                    <span>Smarteen App+ Challenge 2017 엔터테인먼트(게임) 부문 입선</span>
                                     <span className={styles.moreYear}>2017</span>
                                 </li>
                                 <li>
-                                    <span>T Academy 15회 앱잼 미래산업 - VR 게임 장려상</span>
-                                    <span className={styles.moreYear}>2017</span>
+                                    <span>T Academy 15회 앱잼 미래산업(신기술) - VR 게임 장려상</span>
+                                    <span className={styles.moreYear}>2018. 04</span>
                                 </li>
                                 <li>
-                                    <span>SK 0와 함께하는 17회 앱잼 - VR 게임 장려상</span>
-                                    <span className={styles.moreYear}>2019</span>
+                                    <span>SK 0과 함께하는 17회 앱잼 미래산업 - VR 게임 장려상</span>
+                                    <span className={styles.moreYear}>2018. 12</span>
                                 </li>
                             </ul>
                         </div>
