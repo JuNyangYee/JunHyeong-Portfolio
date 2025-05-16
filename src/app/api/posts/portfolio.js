@@ -8,7 +8,7 @@ const Page = {
         fab_github: true,
         fab_github_url: "https://github.com/JuNyangYee/JunHyeong-Portfolio",
         fab_blog: true,
-        fab_blog_url: "https://junyangyee.github.io/posts/PORTFOLIO",
+        fab_blog_url: "https://junyangyee.notion.site/portfolio-devlog?pvs=4",
         fab_video: false,
         fab_video_url: "",
         fab_link: true,
