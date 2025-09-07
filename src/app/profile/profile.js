@@ -46,6 +46,15 @@ export default function Profile() {
 
                 <section className={styles.activity}>
                     <div className={styles.actBox}>
+                        <div className={styles.career}>
+                            <h3 className={styles.subTitle}>CAREER</h3>
+                            <ul className={styles.subText}>
+                                <li>
+                                    <span>펄어비스 TA(쉐이더·프로시듀얼팀) 인턴</span>
+                                    <span className={styles.moreYear}>2025. 06 ~ 2025. 08</span>
+                                </li>
+                            </ul>
+                        </div>
                         <div className={styles.edu}>
                             <h3 className={styles.subTitle}>EDUCATION</h3>
                             <ul className={styles.subText}>
@@ -56,15 +65,6 @@ export default function Profile() {
                                 <li>
                                     <span>서울예술대학교 디지털아트과 전문학사</span>
                                     <span className={styles.moreYear}>2020. 03 ~ 2025. 02</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className={styles.certification}>
-                            <h3 className={styles.subTitle}>CERTIFICATION</h3>
-                            <ul className={styles.subText}>
-                                <li>
-                                    <span>컴퓨터그래픽스운용기능사</span>
-                                    <span className={styles.moreYear}>2019. 07</span>
                                 </li>
                             </ul>
                         </div>
@@ -99,6 +99,15 @@ export default function Profile() {
                                 <li>
                                     <span>SK 0과 함께하는 17회 앱잼 미래산업 - VR 게임 장려상</span>
                                     <span className={styles.moreYear}>2018. 12</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className={styles.certification}>
+                            <h3 className={styles.subTitle}>CERTIFICATION</h3>
+                            <ul className={styles.subText}>
+                                <li>
+                                    <span>컴퓨터그래픽스운용기능사</span>
+                                    <span className={styles.moreYear}>2019. 07</span>
                                 </li>
                             </ul>
                         </div>
