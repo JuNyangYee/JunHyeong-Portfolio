@@ -1,7 +1,7 @@
 const Page = {
     info: {
         title: "Hyper Connection: VR",
-        date: "2024. 08 ~ 2024. 09\n· Kiaf SEOUL 2024 VR 전시",
+        date: "2024. 08 ~ 2024. 09\n· Kiaf SEOUL 2024 VR 전시\n· Altered Nature - 혼합된 미래 (2025) 전시",
         about: "언리얼엔진 PC 컨텐츠를 VR 컨텐츠로 포팅하는 작업을 진행했습니다.",
         thumbnail: "/images/works/HyperConnection/HyperConnection_Thumbnail.png",
         tags: ["Unreal Engine", "VR", "Tech Art"],
@@ -35,7 +35,8 @@ const Page = {
             <h3>소개</h3>
             <p>
                 기존 PC 플레이 버전으로 제작된 컨텐츠를 VR로 체험할 수 있도록 포팅 및 추가 수정을 진행한 작업입니다.<br />
-                Kiaf SEOUL 2024 - Kiaf onSITE 에서 전시되었습니다.
+                Kiaf SEOUL 2024 - Kiaf onSITE 에서 전시되었으며,<br />
+                이어서 2025년 Altered Nature - 혼합된 미래 전시에서 전시되었습니다.
             </p>
 
             <hr />

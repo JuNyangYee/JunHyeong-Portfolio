@@ -28,7 +28,7 @@ export default function FloatingButton() {
                     <div className={styles.tooltip}>
                         <span>PDF PORTFOLIO</span>
                     </div>
-                    <Link href="https://drive.google.com/file/d/1Oyu3508ywac1ETO2pcNaKf0ZFbyHZ4A_/view?usp=drive_link" target="_blank">
+                    <Link href="https://drive.google.com/file/d/1f6euftRTS1JfTs3h-iDDnjibRcfOrO9k/view?usp=sharing" target="_blank">
                         {/* <button className={styles.button} onClick={() => warning()}> */}
                         <button className={styles.button}>
                             <PictureAsPdfIcon className={styles.icon} label="PDF" fontSize="medium"/>
