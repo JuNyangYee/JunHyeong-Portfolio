@@ -50,7 +50,7 @@ export default function Profile() {
                             <h3 className={styles.subTitle}>CAREER</h3>
                             <ul className={styles.subText}>
                                 <li>
-                                    <span>펄어비스 TA(쉐이더·프로시듀얼팀) 인턴</span>
+                                    <span>펄어비스 쉐이더·프로시듀얼 분야 (TA) 인턴</span>
                                     <span className={styles.moreYear}>2025. 06 ~ 2025. 08</span>
                                 </li>
                             </ul>
