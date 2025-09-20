@@ -83,6 +83,10 @@ export default function Profile() {
                                     <span>Kiaf SEOUL 2024 - VR 작품 제작 및 전시</span>
                                     <span className={styles.moreYear}>2024</span>
                                 </li>
+                                <li>
+                                    <span>Altered Nature: 혼합된 미래 (2025) - VR 작품 전시</span>
+                                    <span className={styles.moreYear}>2025</span>
+                                </li>
                             </ul>
                         </div>
                         <div className={styles.awards}>
