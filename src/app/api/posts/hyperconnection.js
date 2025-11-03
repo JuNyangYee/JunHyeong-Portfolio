@@ -1,7 +1,7 @@
 const Page = {
     info: {
         title: "Hyper Connection: VR",
-        date: "2024. 08 ~ 2024. 09\n· Kiaf SEOUL 2024 VR 전시\n· Altered Nature - 혼합된 미래 (2025) 전시",
+        date: "2024. 08 ~ 2024. 09\n· Kiaf SEOUL 2024 VR 전시\n2025. 08 ~ 2025. 09\n· Altered Nature - 혼합된 미래 (2025) 전시",
         about: "언리얼엔진 PC 컨텐츠를 VR 컨텐츠로 포팅하는 작업을 진행했습니다.",
         thumbnail: "/images/works/HyperConnection/HyperConnection_Thumbnail.png",
         tags: ["Unreal Engine", "VR", "Tech Art"],
@@ -9,8 +9,8 @@ const Page = {
         fab_github_url: "",
         fab_blog: false,
         fab_blog_url: "",
-        fab_video: false,
-        fab_video_url: "",
+        fab_video: true,
+        fab_video_url: "https://youtu.be/dGsco7YeX4I",
         fab_link: false,
         fab_link_url: "",
     },
@@ -36,7 +36,7 @@ const Page = {
             <p>
                 기존 PC 플레이 버전으로 제작된 컨텐츠를 VR로 체험할 수 있도록 포팅 및 추가 수정을 진행한 작업입니다.<br />
                 Kiaf SEOUL 2024 - Kiaf onSITE 에서 전시되었으며,<br />
-                이어서 2025년 Altered Nature - 혼합된 미래 전시에서 전시되었습니다.
+                이어서 개선된 버전이 2025년 Altered Nature - 혼합된 미래 전시에서 전시되었습니다.
             </p>
 
             <hr />
@@ -97,6 +97,10 @@ const Page = {
                 <li><strong>상주 메뉴얼 제작</strong><br />
                     제가 기술 담당자이지만 현장에 있지 못하는 날이 많아, 현장 운영위원들이 확인할 수 있는 메뉴얼을 제작했습니다. <br />
                     체험 가이드 방법 및 오류 발생 시 해결 방법들을 종류별로 적어 현장에서 메뉴얼을 보고 조치할 수 있도록 하였습니다.
+                </li>
+                <li><strong>시네마틱 영상 제작</strong><br />
+                    VR 멀미 및 추후 VR 설치 환경이 되지 않는 상황을 대비해 시네마틱 영상도 함께 제작했습니다.<br />
+                    VR 컨텐츠를 단순 1인칭으로 보여주는 방향이 아닌, 전체 컨텐츠를 멀리서 바라보는 형태로 제작했습니다.
                 </li>
             </ul>
 
