@@ -25,6 +25,17 @@
 
 		{
 			"index": 3,
+			"mainTag": ["unreal"],
+			"thumbnail": "/images/works/Connection/Connection_Thumbnail.png",
+			"alt": "Connection_Thumbnail",
+			"title": "因緣 (인연)",
+			"sub": "언리얼엔진과 키넥트를 이용한 인터렉티브 미디어아트 작업을 진행했습니다.",
+			"tags": ["Unreal Engine", "TouchDesigner", "Kinect", "Tech Art"],
+			"url": "connection"
+		},
+
+		{
+			"index": 4,
 			"mainTag": ["unreal", "3D"],
 			"thumbnail": "/images/works/BlueDot/BlueDot_Thumbnail.png",
 			"alt": "PaleBlueDot_Thumbnail",
@@ -35,7 +46,7 @@
 		},
 
 		{
-			"index": 4,
+			"index": 5,
 			"mainTag": ["3D"],
 			"thumbnail": "/images/works/AstonMartin/AstonMartin_Thumbnail.png",
 			"alt": "AstonMartin_Thumbnail",

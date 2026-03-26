@@ -181,6 +181,16 @@
     font-size: 0.75rem;
 }
 
+.subText .moreWorks{
+    line-height: 200%;
+    margin-top: 5px;
+    padding-left: 25px;
+    list-style: circle inside;
+    columns: #787878;
+    font-weight: var(--font-light);
+    font-size: 0.8rem;
+}
+
 
 @media screen and (min-width:768px) and (max-width:1279px) { 
     .innerPadding {

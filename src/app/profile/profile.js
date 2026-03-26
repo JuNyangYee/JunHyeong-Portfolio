@@ -50,8 +50,19 @@ export default function Profile() {
                             <h3 className={styles.subTitle}>CAREER</h3>
                             <ul className={styles.subText}>
                                 <li>
-                                    <span>펄어비스 쉐이더·프로시듀얼 분야 (TA) 인턴</span>
+                                    <span>펄어비스 쉐이더 · 프로시듀얼 파트 (TA) 인턴</span>
                                     <span className={styles.moreYear}>2025. 06 ~ 2025. 08</span>
+                                    <ol className={styles.moreWorks}>
+                                        <li>
+                                            <span>HLSL 기반 쉐이더 개선 및 제작 (최적화, 구조 개선, 오류 수정)</span>
+                                        </li>
+                                        <li>
+                                            <span>Substance Designer / Photoshop을 활용한 텍스쳐 개선 및 제작</span>
+                                        </li>
+                                        <li>
+                                            <span>모델링, 이펙트 등 기타 아트 리소스 개선 및 제작</span>
+                                        </li>
+                                    </ol>
                                 </li>
                             </ul>
                         </div>
